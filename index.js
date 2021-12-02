@@ -23,7 +23,7 @@ app.use(express.json());
 
     export const client= await createConnection();
 app.get("/",(request,response)=>{
-    response.send("Hello,world");
+    response.send("Hello,world😁");
 });
 
 app.use("/movies",moviesRouter)
