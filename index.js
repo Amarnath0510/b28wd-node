@@ -6,7 +6,7 @@ import { moviesRouter } from "./routes/movies.js";
 
  
 dotenv.config();
-console.log(process.env);
+// console.log(process.env);
 
 
 const app=express();
