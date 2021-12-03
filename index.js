@@ -1,5 +1,5 @@
-import cors from 'cors';
-import express, { request, response } from "express";
+import cors from "cors";
+import express from "express";
 import { MongoClient } from 'mongodb';
 import dotenv from "dotenv";
 import { moviesRouter } from "./routes/movies.js";
